@@ -11,7 +11,7 @@ class MiLoginApp extends StatelessWidget {
       title: 'AppMaster Nava',
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.deepOrange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       darkTheme: ThemeData(
@@ -73,21 +73,18 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         title: Text('Ingreso al Sistema'),
       ), //fin de appbar
       body: SafeArea(
-         child: ListView(
-           padding: EdgeInsets.symmetric(horizontal: 24.0), 
-           children: <Widget>[
-             SizedBox(height: 80.0),
-              Column(
+        child: ListView(
+          padding: EdgeInsets.symmetric(horizontal: 24.0),
+          children: <Widget>[
+            SizedBox(height: 80.0),
+            Column(
               children: <Widget>[
                 Image.asset('assets/diamond.png'),
                 SizedBox(height: 16.0),
               ],
-            ), 
-
-             
-           ], // fin de widgets
-           
-         ), //fin de lisView
+            ),
+          ], // fin de widgets
+        ), //fin de lisView
       ), // Area segura
     ); // fin de sacaffold
   } //fin de widget
