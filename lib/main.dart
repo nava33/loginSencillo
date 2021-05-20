@@ -84,8 +84,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
             if (!acceso)
-              
-                Column(children: <Widget>[
+              Column(
+                children: <Widget>[
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
@@ -94,11 +94,10 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ),
                   ),
                 ], // fin de widget []
+              ) //fin clumna
+            // if verdadero
 
-                    ) //fin clumna
-               // if verdadero
-            else
-               // if falso
+            // if falso
           ], // fin de widgets
         ), //fin de lisView
       ), // Area segura
