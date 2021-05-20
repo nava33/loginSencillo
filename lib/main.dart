@@ -99,7 +99,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       filled: true,
                       labelText: 'Password',
                     ),
-                    // obscureText: true,
+                    obscureText: true,
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 18.0),
