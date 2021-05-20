@@ -90,8 +90,16 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     decoration: InputDecoration(
                       filled: true,
                       // fillColor: Colors.amber,
-                      labelText: 'Username',
+                      labelText: 'Nombre Usuario',
                     ),
+                  ),
+                  SizedBox(height: 12.0),
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      labelText: 'Password',
+                    ),
+                    obscureText: true,
                   ),
                 ], // fin de widget []
               ) //fin clumna
