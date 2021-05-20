@@ -96,7 +96,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
-                      filled: true,
+                      //filled: true,
                       labelText: 'Password',
                     ),
                     obscureText: true,
