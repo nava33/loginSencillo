@@ -24,7 +24,7 @@ class MiLoginApp extends StatelessWidget {
   } // fin de widget
 } // // fin de class MiLoginApp
 
-class IngresoSistema extends StatelessWidget {
+class IngresoSistema extends StatefulWidget {
   @override
   _IngresoSistemaState createState() => _IngresoSistemaState();
 } // fin  class IngresoSistema
